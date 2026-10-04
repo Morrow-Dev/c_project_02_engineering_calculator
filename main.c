@@ -1,6 +1,6 @@
 #include <stdio.h>
-
+#include "./Menus/startmenu.h"
 int main(void) {
-    printf("Hello, World!\n");
+    startMenu();
     return 0;
 }
