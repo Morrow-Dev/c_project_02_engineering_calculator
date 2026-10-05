@@ -70,7 +70,7 @@ void powersAndRootsMenu(void) {
             case 5: {
                 double x;
                 double result;
-                printf("Please enter the number to find the cube root of.\n");
+                printf("Please enter the number to find the cube root.\n");
                 scanf("%lf", &x);
                 result = cubeRoot(x);
                 printf("The cube root of %.2f is %.2f.\n", x, result);
