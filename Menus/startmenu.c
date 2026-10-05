@@ -3,7 +3,8 @@
 #include <string.h>
 #include <stdbool.h>
 #include "arithmeticmenu.h"
-
+#include "integermenu.h"
+#include "powersandrootsmenu.h"
 void startMenu(void) {
     bool ALWAYS = true;
 
@@ -23,6 +24,12 @@ void startMenu(void) {
             case 1: {
                 arithmeticMenu();
                 break;
+            } case 2: {
+                integerMenu();
+                break;
+            }
+            case 3: {
+                powersAndRootsMenu();
             }
         }
     }

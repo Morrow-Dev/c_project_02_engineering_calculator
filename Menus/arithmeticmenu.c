@@ -6,7 +6,7 @@
 
 void arithmeticMenu(void) {
     bool arithmeticALWAYS = true;
-    while (arithmeticALWAYS == true){
+    while (arithmeticALWAYS == true) {
         int menuchoice;
         printf("=========================================================================\n");
         printf("                            ARITHMETIC MENU.\n");
@@ -79,11 +79,12 @@ void arithmeticMenu(void) {
                 arithmeticALWAYS = false;
                 break;
             }
-        } default: {
-            printf("Invalid Input.\n");
-            break;
+            default: {
+                printf("Invalid Input.\n");
+                break;
+            }
         }
-
-
     }
 }
+
+

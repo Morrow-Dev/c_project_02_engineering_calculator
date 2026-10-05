@@ -14,4 +14,8 @@ add_executable(c_project_02_engineering_calculator main.c
         Operations/integer.c
         Menus/integermenu.c
         Menus/integermenu.h
+        Menus/powersandrootsmenu.c
+        Menus/powersandrootsmenu.h
+        Operations/powersandroots.c
+        Operations/powersandroots.h
 )
